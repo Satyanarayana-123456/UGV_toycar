@@ -39,9 +39,31 @@
 \bigskip
 
 \begin{abstract}
-Controlling a toycar (UGV) via Bluetooth and Speech.
+This project presents a method for controlling a toy car (UGV) using both Bluetooth and speech commands. The toycar is built using an ESP32 microcontroller and L293D motor driver IC to drive two DC motors. Users can control the toycar through a mobile app that provides a gamepad interface or takes voice commands. This system offers a low-cost and easy-to-build platform to study motor control, wireless communication by combining basic autonomous navigation.
 \end{abstract}
 
+\section{Introduction}
+Autonomous navigation has been a major area of research in robotics, with pioneering projects such as Stanley, which won the DARPA Grand Challenge \cite{thrun2006stanley}, and Boss and Junior, which competed in the DARPA Urban Challenge \cite{urmson2008boss, montemerlo2008junior}, demonstrating autonomous navigation in complex environments. End-to-end learning approaches, such as NVIDIA's system for self-driving cars \cite{bojarski2016end}, have further simplified navigation pipelines by mapping sensor inputs directly to control outputs. Surveys on intelligent vehicles highlight a wide variety of autonomous driving applications \cite{bishop2000survey}, and research on fully autonomous systems explores both the hardware and software required for robust navigation \cite{levinson2011towards}. In parallel, speech-based human-robot interaction has enabled intuitive control of robots in constrained environments, including intelligent wheelchairs and mobile robots \cite{li2017speech, prasad2013voice, vasudevan2010speech}, and robust speech recognition datasets such as Google’s Speech Commands \cite{warden2018speech} have accelerated development of voice-controlled systems. Inspired by these high-level projects, this work presents a scaled-down prototype using an ESP32 microcontroller and an L293D motor driver IC to build a voice-enabled toy car, integrating simple navigation with bluetooth control and speech commands for user interaction.
+
+\section{List of Components}
+\begin{enumerate}[label=\thesection.\arabic*,ref=\thesection.\theenumi]
+
+\item UGV Kit - 1 set - For assembling the toycar chassis.
+
+\item ESP32 - 1pc - Microcontroller used for control and wireless communication.
+
+\item L293D Motor Driver IC - 1pc - For driving and controlling the DC motors.
+
+\item Power Bank - 1pc - Provides portable power supply to the system.
+
+\item DC Motors - 2pcs - Used for propulsion of the toy car.
+
+\item Breadboard - 1pc - For making circuit connections. 
+
+\item Jumper Wires - 11pcs - For making electrical connections between components.
+
+\item Micro-USB cable - 1pc - For connecting the ESP32 to the power bank.
+\end{enumerate}
 
 \section{Hardware Setup}
 %
@@ -51,7 +73,6 @@ Controlling a toycar (UGV) via Bluetooth and Speech.
 
 \item Fix the breadboard on the base of the toycar.
 
-\item Take an ESP32 module for communication purposes.
 \item Plug the \textbf{L293D} motor driver IC in Fig. \ref{fig:l293d_ic} on the breadboard.
 
 \begin{figure}[!ht]
@@ -71,7 +92,7 @@ Controlling a toycar (UGV) via Bluetooth and Speech.
   \label{table:1}
 \end{table}
 
-\item Connect any 4 GPIO pins (\textbf{Ex}: 25, 26, 33 \& 32) of ESP32 in Fig. \ref{fig:esp32} to L293D inputs
+\item Connect any 4 GPIO pins (\textbf{Ex}: 25, 26, 33 \& 32) of \textbf{ESP32} in Fig. \ref{fig:esp32} to L293D inputs
 \begin{figure}[!ht]
 \centering
 \resizebox{0.4\textwidth}{!}{%
@@ -158,5 +179,38 @@ wget \url{https://github.com/Satyanarayana-123456/UGV_toycar/blob/main/codes/ABC
 \item The commands which the voice control takes are \textit{Left, Right, Forward, Back \& Stop}.
 
 \end{enumerate}
+\begin{thebibliography}{00}
+
+\bibitem{thrun2006stanley}
+S. Thrun et al., ``Stanley: The robot that won the DARPA Grand Challenge,'' \textit{Journal of Field Robotics}, vol. 23, no. 9, pp. 661–692, 2006.
+
+\bibitem{urmson2008boss}
+C. Urmson et al., ``Autonomous driving in urban environments: Boss and the Urban Challenge,'' \textit{Journal of Field Robotics}, vol. 25, no. 8, pp. 425–466, 2008.
+
+\bibitem{montemerlo2008junior}
+M. Montemerlo et al., ``Junior: The Stanford entry in the Urban Challenge,'' \textit{Journal of Field Robotics}, vol. 25, no. 9, pp. 569–597, 2008.
+
+\bibitem{bojarski2016end}
+M. Bojarski et al., ``End to end learning for self-driving cars,'' \textit{arXiv preprint arXiv:1604.07316}, 2016. [Online]. Available: \url{https://arxiv.org/abs/1604.07316}
+
+\bibitem{bishop2000survey}
+R. Bishop, ``A survey of intelligent vehicle applications worldwide,'' \textit{IEEE Intelligent Vehicles Symposium}, vol. 15, no. 1, pp. 113–122, 2000.
+
+\bibitem{levinson2011towards}
+J. Levinson, J. Askeland, J. Becker et al., ``Towards fully autonomous driving: Systems and algorithms,'' in \textit{Proc. IEEE Intelligent Vehicles Symposium}, 2011, pp. 163–168.
+
+\bibitem{li2017speech}
+G. Li, S. Mei, H. Yang et al., ``Speech interaction with robots: A review,'' \textit{International Journal of Advanced Robotic Systems}, vol. 14, no. 6, pp. 1–15, 2017.
+
+\bibitem{prasad2013voice}
+P. R. K. Prasad, V. G. Kumar, and R. R. Reddy, ``Voice-controlled robotic vehicle,'' \textit{International Journal of Advanced Research in Electrical, Electronics and Instrumentation Engineering}, vol. 2, no. 6, pp. 2723–2728, 2013.
+
+\bibitem{warden2018speech}
+P. Warden, ``Speech commands: A dataset for limited-vocabulary speech recognition,'' \textit{arXiv preprint arXiv:1804.03209}, 2018.
+
+\bibitem{vasudevan2010speech}
+A. Vasudevan and R. Siegwart, ``Speech-based human–robot interaction for assistive robots,'' \textit{Robotics and Autonomous Systems}, vol. 58, no. 7, pp. 881–888, 2010.
+
+\end{thebibliography}
 \end{document}
-l
+

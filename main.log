@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.10.21)  20 SEP 2025 18:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.10.21)  21 SEP 2025 22:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -506,72 +506,108 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
+
+
+LaTeX Warning: Citation `thrun2006stanley' on page 1 undefined on input line 46
+.
+
+
+LaTeX Warning: Citation `urmson2008boss' on page 1 undefined on input line 46.
+
+
+LaTeX Warning: Citation `montemerlo2008junior' on page 1 undefined on input lin
+e 46.
+
+
+LaTeX Warning: Citation `bojarski2016end' on page 1 undefined on input line 46.
+
+
+
+LaTeX Warning: Citation `bishop2000survey' on page 1 undefined on input line 46
+.
+
+
+LaTeX Warning: Citation `levinson2011towards' on page 1 undefined on input line
+ 46.
+
+
+LaTeX Warning: Citation `li2017speech' on page 1 undefined on input line 46.
+
+
+LaTeX Warning: Citation `prasad2013voice' on page 1 undefined on input line 46.
+
+
+
+LaTeX Warning: Citation `vasudevan2010speech' on page 1 undefined on input line
+ 46.
+
+
+LaTeX Warning: Citation `warden2018speech' on page 1 undefined on input line 46
+.
+
 <figs/L293D_IC.png, id=25, 246.9225pt x 213.04594pt>
 File: figs/L293D_IC.png Graphic file (type png)
 <use figs/L293D_IC.png>
-Package pdftex.def Info: figs/L293D_IC.png  used on input line 61.
+Package pdftex.def Info: figs/L293D_IC.png  used on input line 82.
 (pdftex.def)             Requested size: 246.92188pt x 213.04541pt.
-
 (./tables/table1.tex)
 <figs/ESP32.png, id=29, 534.49687pt x 518.6878pt>
 File: figs/ESP32.png Graphic file (type png)
 <use figs/ESP32.png>
-Package pdftex.def Info: figs/ESP32.png  used on input line 79.
+Package pdftex.def Info: figs/ESP32.png  used on input line 100.
 (pdftex.def)             Requested size: 534.49556pt x 518.68654pt.
  (./tables/table2.tex)
+<figs/IITH.png, id=31, 151.56625pt x 188.705pt>
+File: figs/IITH.png Graphic file (type png)
+<use figs/IITH.png>
+Package pdftex.def Info: figs/IITH.png  used on input line 115.
+(pdftex.def)             Requested size: 99.58464pt x 123.98708pt.
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 108--108
+ <./figs/IITH.png> <./figs/L293D_IC.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 129--129
 []\OT1/ptm/m/n/10 wget []$https : / / github . com / Satyanarayana-[]123456 / U
 GV[]
  []
 
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 105--109
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 126--130
 [] 
  []
 
-<figs/dabble_home.jpg, id=33, 1084.05pt x 1855.93375pt>
+<figs/dabble_home.jpg, id=68, 1084.05pt x 1855.93375pt>
 File: figs/dabble_home.jpg Graphic file (type jpg)
 <use figs/dabble_home.jpg>
-Package pdftex.def Info: figs/dabble_home.jpg  used on input line 117.
+Package pdftex.def Info: figs/dabble_home.jpg  used on input line 138.
 (pdftex.def)             Requested size: 1084.04736pt x 1855.92924pt.
-<figs/dabble_gamepad.jpg, id=35, 1927.2pt x 1084.05pt>
+<figs/dabble_gamepad.jpg, id=70, 1927.2pt x 1084.05pt>
 File: figs/dabble_gamepad.jpg Graphic file (type jpg)
 <use figs/dabble_gamepad.jpg>
-Package pdftex.def Info: figs/dabble_gamepad.jpg  used on input line 127.
+Package pdftex.def Info: figs/dabble_gamepad.jpg  used on input line 148.
 (pdftex.def)             Requested size: 1927.19533pt x 1084.04736pt.
 
-Overfull \hbox (5.98186pt too wide) in paragraph at lines 125--128
+Overfull \hbox (5.98186pt too wide) in paragraph at lines 146--149
  [][] 
  []
 
-<figs/IITH.png, id=36, 151.56625pt x 188.705pt>
-File: figs/IITH.png Graphic file (type png)
-<use figs/IITH.png>
-Package pdftex.def Info: figs/IITH.png  used on input line 138.
-(pdftex.def)             Requested size: 99.58464pt x 123.98708pt.
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-
- <./figs/IITH.png> <./figs/L293D_IC.png> <./figs/ESP32.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 141--141
+Underfull \hbox (badness 10000) in paragraph at lines 162--162
 []\OT1/ptm/m/n/10 wget []$https : / / github . com / Satyanarayana-[]123456 / U
 GV[]
  []
 
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 138--142
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 159--163
 [] 
  []
 
-<figs/ABC_home.jpg, id=78, 1084.05pt x 1855.93375pt>
+<figs/ABC_home.jpg, id=73, 1084.05pt x 1855.93375pt>
 File: figs/ABC_home.jpg Graphic file (type jpg)
 <use figs/ABC_home.jpg>
-Package pdftex.def Info: figs/ABC_home.jpg  used on input line 151.
+Package pdftex.def Info: figs/ABC_home.jpg  used on input line 172.
 (pdftex.def)             Requested size: 1084.04736pt x 1855.92924pt.
+[2 <./figs/ESP32.png> <./figs/dabble_home.jpg> <./figs/dabble_gamepad.jpg>]
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -583,31 +619,50 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[2 <./figs/dabble_home.jpg> <./figs/dabble_gamepad.jpg> <./figs/ABC_home.jpg>]
-(./main.aux)
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 66939EFB692D40BCDC130F4A83CC64BA;519.
+[3
+
+ <./figs/ABC_home.jpg>] (./main.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 66939EFB692D40BCDC130F4A83CC64BA;519
+(rerunfilecheck)             After:  3F62798CC44B96948F5D790DE045BBEF;855.
  ) 
 Here is how much of TeX's memory you used:
- 12818 strings out of 478287
- 199668 string characters out of 5849288
- 514976 words of memory out of 5000000
- 30801 multiletter control sequences out of 15000+600000
- 507392 words of font info for 100 fonts, out of 8000000 for 9000
+ 12852 strings out of 478287
+ 200180 string characters out of 5849288
+ 516976 words of memory out of 5000000
+ 30811 multiletter control sequences out of 15000+600000
+ 508528 words of font info for 101 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,11n,63p,247b,484s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
-times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (2 pages, 1261580 bytes).
+ 60i,11n,63p,1496b,478s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{subsection.2.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.1} has been referenced but does not ex
+ist, replaced by a fixed one
+
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ti
+mes/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (3 pages, 1271560 bytes).
 PDF statistics:
- 136 PDF objects out of 1000 (max. 8388607)
- 105 compressed objects within 2 object streams
- 36 named destinations out of 1000 (max. 500000)
+ 170 PDF objects out of 1000 (max. 8388607)
+ 138 compressed objects within 2 object streams
+ 59 named destinations out of 1000 (max. 500000)
  63 words of extra memory for PDF output out of 10000 (max. 10000000)
 
